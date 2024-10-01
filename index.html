@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Letter</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif; /* Romantic font */
+            display: flex;
+            justify-content: center;
+            align-items: center; /* Center content vertically and horizontally */
+            min-height: 100vh; /* Full height of the viewport */
+            background-image: url('master/bg.jpg');
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 20px; /* Added padding for better spacing */
+            overflow-y: auto; /* Allow vertical scroll */
+        }
+
+        #page1 {
+            display: none;
+            text-align: center;
+            width: 100%;
+            max-width: 600px; /* Increased width for better readability */
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05); /* Reduced shadow size */
+            margin-bottom: 20px; /* Added margin for spacing between pages */
+        }
+        
+        #page2 {
+            display: none;
+            text-align: center;
+            width: 100%;
+            max-width: 600px; /* Increased width for better readability */
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05); /* Reduced shadow size */
+            margin-bottom: 20px; /* Added margin for spacing between pages */
+        }
+
+        #page1.active {
+            display: flex; /* Use flexbox to center content */
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh; /* Full height to center vertically */
+        }
+
+        #page2.active {
+            display: block;
+        }
+
+        button {
+            padding: 12px 24px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 20px;
+            width: 100%;
+            max-width: 300px;
+            border: none;
+            background-color: #ff7675;
+            color: white;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+
+        button:hover {
+            background-color: #d63031;
+        }
+
+        h1 {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            color: #e74c3c;
+            text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.2);
+        }
+
+        p {
+            font-size: 18px;
+            color: #636e72;
+            line-height: 1.5;
+            margin: 20px 0 0;
+            text-align: left;
+        }
+
+        .decorative-line {
+            width: 80px;
+            height: 2px;
+            background-color: #e74c3c;
+            margin: 10px auto 20px;
+        }
+
+        img.gif {
+            width: 200px; /* Adjust size as necessary */
+            height: auto;
+            margin-bottom: 20px; /* Space between gif and title */
+        }
+
+    </style>
+</head>
+<body>
+
+<div id="page1" class="active">
+    <img src="master/stoberi.gif" alt="Romantic GIF" class="gif"> <!-- Added GIF image -->
+    <h1>Strawberry Massage</h1>
+    <div class="decorative-line"></div>
+    <button id="nextButton">Buka Surat </button>
+    <button id="musicButton">Putar Musik</button>
+</div>
+
+<div id="page2">
+    <h1>Pesan Buat Myfav Girl</h1>
+    <div class="decorative-line"></div>
+    <p>
+        haiyooowwww cantik, gimana kabarnya? aku harap kamu baik baik saja disitu, masih inget ga tanggal ini? yapp benarr ini tanggal yang sangatt spesial bangett nget nget buat aku, tanggal 2 menjadi tanggal yang ga akan pernah aku lupain, tanggal 2 awal kita mulai cerita bareng tapi engga deng yaaa..sebelum itu kita emang udah deket banget haha tapi aku jelasin hubungan kita pas tanggal itu
+        </p>
+        <p>
+        aku rasa mungkin kita bareng kita jalanin hubungan itu tuh cuma sebulan ya? semasa liburan kemarin, aku ngerasa ga worth it aja gara gara sebulan itu kita jadi asing, yang kenyataanya kita udah kenal dan deket berbulan” lalu malah dah setaun ya, aku belum sempet ngerasain disemangatin kamu sebelum kelas haha, disupport pas udh aktif kuliah, tapi kita malah jauh sejak awal aktif kuliah ya? kita cuma kurang ngobrol, 
+        </p>
+        <p>
+        aku juga selalu mikir kedepane ga cuma havefun buat sesaat, aku punya goals bareng kamu yang blm aku omongin, dulu aku udah mikir dan aku tau kedepane kita jalanin hubungan ini kita juga pasti sibuk dengan dunia kita, organisasi, kuliah, dan lingkungan kita tpi aku yakin aku bisa nerima itu dan bisa nempatin kamu diposisi yang bener dan aku tau aku harus bersikap gimana, tapi ekspektasiku salah, nyatanya kita belum sempet mencoba itu tapi akhirnya kita udah jauh sekarang..
+        </p>
+        <p>
+        bulan september itu adalah..bulan yang balik buruk buat aku, dimana dibulan itu kita jadi jauh, banyak masalah, banyak pikiran, banyak salah paham, jujur aku down bgt dibulan itu, setiap hari kya orang gila, setiap hari ngerasain penyesalan, setiap hari mentalku ga stabil, kegagalanku terulang lagi dn selalu gitu, tapi aku bersyukur bangett, kamu baik.. kamu masi mau respond aku dengan baik ya mungkin ga se intens dulu tapi aku hargai banget itu
+        </p>
+        <p>
+        mungkin kita dijauhkan ya emang untuk intropeksi diri masing” kita juga masih banyak kurangnya, aku banyak belajar dari kamu yang baik yang bener, aku terapin di keseharianku ya walaupun masih ada yang luput ga kekontrol,
+        </p>
+        <p>
+        intinya ya, harapanku tetep sama kaya tanggal 2 sebelumnya, kita bisa disatukan lagi diversi berbeda, entah kapan ya aku juga gatau, bisaku cuma usaha sama berdoa, entah kenapa rasanya aku tulus bgt ke kamu, aku juga heran kenapa aku bisa gini, sebulan aku kamu sia”in aku kamu biarin chatku ga penting lagi buat kamu, tpi gapapa aku ngerti semua itu juga gara” salahku sendiri,
+        aku tetep pegang omonganku, secapek apapun aku sm sikapmu aku tetep disini ga kemana” karna yaahh karena kamu adalah sesuatu yang harus diperjuangkan bukan ditunggu
+        </p>
+        <p>
+        aku juga mau minta maaf ke kamu, maaf aku sering buat risih kamu…, maaff aku masih ngespam kamu, maaf aku selalu nanyain hari”mu, maaff banget kata”mu kemarin buat aku sakit bgt asli, aku ga pernah ada niatan jelek ke kamu, aku selalu pengen denger cerita kamu, aku ngerti kok kamu orangnya susah cerita, aku nanya harimu gimana itu ya kali aja kamu butuh temen cerita ya pasti aku siap, mungkin feedbacku ga bikin kamu tenang tpi aku dh berusaha kok buat jdi tempat kmu cerita, perihal aku ngefollow temnmu ya itu ada yang aku kenal dan ada juga alesan sndiri yg gbisa aku omongin, aku ga pernah niatan mau ganggu kamu, mau jahat ke kamu itu engga ada, untuk balik ke aku yang dulu juga rasanya dah ga masanya lagi, lingkungankh aku kecilin, igku tiktoku juga aku unfoll” yg ga kenal ga penting
+        </p>
+        <p>
+        gada satu orang didunia yang mau ngejelek”in nyakitin orang yang dia sayang, one day mungkin sekalinya rasanya udah hilang tapi tetep aja kamu pernah jadi bagian dari senengku, dan aku ga bakal nyakitin kamu
+        </p>
+        <p>
+        udh cukup sedih”nyaa, buat kamu tetep semangatt aku selalu bangga sama apa yang kamu lakuin, kamu inspirasiku, kamu semangatku pokoknya makasih buat kamu udh dateng dihidupku, karna kamu aku lebih baik
+        kamu cwe yang hebat, cwe yang punya value tinggi, dan kamu juga punya rasa tanggungjawab yang tinggi juga,
+        </p>
+        <p>
+        kamu jangan pernah ngerasa sendiriii… kamu msih punya orang yang care sama kamu yang sayang sama kamu, masih ada Diah yang selalu ada buat kamu, susah seneng udh kamu lewatin bareng dia, aku ngelihat kamu sama diah itu kaya saling melingkapi.. pastinya kalian udah ngerti satu sama lain, tapi… jangan pernah lupa satu pertemanan suatu saat pasti punya masalah kecil ataupun besar jadi buat kalian pokonya jangan sampe jauhh, klo sampe jauhh ataupun ada problem ini itu aku bakal turun buat nyatuin kalian lagi, dan jangan lupa ya.. masih ada aku mas mas informatika yang aneh ini selalu ada buat buat kamu dan selalu sayang selalu cinta ke kamu
+        </p>
+        <p>
+        pesanku ke kamu…. ayo balik lagi kaya dulu, mungkin kamu belum ada tenaga buat seexited dulu, aku ngerti namanya luka sembuhnya lama dan ga menutup kemungkinan masi ada bekasnya, aku masih sabar nunggu kamu, disini aku sebagai temanmu selalu nunggu kamu balik kaya dulu lagi, mulai dari temenan gapapa aku jalanin aja masalah kedepane itu allah yang ngatur bukan dari aku kan?, jadi aku lakuin aja sebisaku
+        </p>
+        <p>
+        ahahahaahh maaf ya teksnya panjang, aku emang suka naruh ceritaku diketikan jadi maap maap aja nih malah jadi novel yakan
+        </p>
+        <p>
+        satu lagi deng, jangan pernah lupain akuu, tayoku dijaga jaketku dipake ya… itu aku kasih kamu biar kamu selalu inget aku inget moment itu aku harap kamu jaga baik” aku kebanyakan jaket juga hahahaha, aku gamau kamu balikin, klo kamu balikin berarti kamu ga menghargai aku ga ngehargai pemberianku ya, aku juga jaga baik” airpodmu hihi kamu jd gbisa make buat dengerin musik, gapapa ya? cuman itu yang bisa ngobatin kangenku, POKONYA HARUS KAMU PAKE KLO KAMU SAYANG SAMA AKUH 
+        </p>
+        <p>
+        dah segitu aja.. sampai jumpa tanggal 2 bulan depan
+        semoga apa yang kita usahakan, apa yang kita lakuin, apa yang mau bisa tercapai dikedepane, semua yang kita lakuin dengan ikhlas dengan sabar pasti ada jalanya..
+        </p>
+        <p>
+        i love you rona cantik ❤️
+        aku msih nunggu kamu. tetep jadi rona yang aku kenal ya
+        emosinya dijaga gpp ketus ke aku tapi gaboleh ke orang lain ya! see u soon
+        </p>
+        
+        dari Galih manusia freak
+        
+    </p>
+</div>
+
+<script>
+    const nextButton = document.getElementById("nextButton");
+    const musicButton = document.getElementById("musicButton");
+    const page1 = document.getElementById("page1");
+    const page2 = document.getElementById("page2");
+
+    nextButton.addEventListener("click", () => {
+        page1.classList.remove("active");
+        page2.classList.add("active");
+    });
+
+    musicButton.addEventListener("click", () => {
+        const audio = new Audio('master/backsound.mp3'); // Corrected path for the audio file
+        audio.loop = true; // Set to true for looping
+        audio.play();
+    });
+</script>
+
+</body>
+</html>
